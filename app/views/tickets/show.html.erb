@@ -1,0 +1,19 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Entry tine:</strong>
+  <%= @ticket.entry_tine %>
+</p>
+
+<p>
+  <strong>Departure time:</strong>
+  <%= @ticket.departure_time %>
+</p>
+
+<p>
+  <strong>Tariff:</strong>
+  <%= @ticket.tariff %>
+</p>
+
+<%= link_to 'Edit', edit_ticket_path(@ticket) %> |
+<%= link_to 'Back', tickets_path %>

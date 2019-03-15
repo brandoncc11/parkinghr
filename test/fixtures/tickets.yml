@@ -1,0 +1,11 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  entry_tine: 2019-03-15 09:52:53
+  departure_time: 2019-03-15 09:52:53
+  tariff: 1
+
+two:
+  entry_tine: 2019-03-15 09:52:53
+  departure_time: 2019-03-15 09:52:53
+  tariff: 1
